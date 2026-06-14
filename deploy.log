@@ -1,0 +1,14 @@
+2026-06-14 09:55:49 [69751] Directory backend-fastapi already exists. Skipping clone.
+2026-06-14 09:55:49 [69751] Building Docker image: backend-fastapi
+2026-06-14 09:55:50 [69751] Running Docker container: backend-fastapi on port 8000
+2026-06-14 09:55:50 [69751] Container backend-fastapi is healthy and running.
+2026-06-14 09:56:09 [70139] Directory backend-fastapi already exists. Skipping clone.
+2026-06-14 09:56:09 [70139] Building Docker image: backend-fastapi
+2026-06-14 09:56:10 [70139] Running Docker container: backend-fastapi on port 8000
+2026-06-14 09:56:10 [70139] Waiting for container backend-fastapi to become healthy...
+2026-06-14 09:56:40 [70139] Container backend-fastapi is healthy and running.
+2026-06-14 09:57:29 [71163] Directory backend-fastapi already exists. Skipping clone.
+2026-06-14 09:57:29 [71163] Building Docker image: backend-fastapi
+2026-06-14 09:57:30 [71163] Running Docker container: backend-fastapi on port 8000
+2026-06-14 09:57:30 [71163] Waiting for container backend-fastapi to become healthy...
+2026-06-14 09:58:00 [71163] Container backend-fastapi is healthy and running.
