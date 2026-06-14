@@ -1,4 +1,4 @@
-#linux-bash-practice
+# linux-bash-practice
 
 Simple script for prepare backend-fastapi from repo
 
