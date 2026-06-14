@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LOG_FILE="deploy.log"
-git_repo= https://github.com/goga0/backend-fastapi.git
+git_repo="https://github.com/goga0/backend-fastapi.git"
 
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') [$$] $1"
