@@ -1,16 +1,17 @@
 #!/bin/bash
 
 LOG_FILE="deploy.log"
+git_repo= https://github.com/goga0/backend-fastapi.git
 
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') [$$] $1"
     echo "$(date '+%Y-%m-%d %H:%M:%S') [$$] $1" >> "$LOG_FILE"
 }
 
-container_name=$(basename $1 .git)
+container_name=$(basename $git_repo .git)
 
 if [ ! -d "$container_name" ]; then
-    git clone $1
+    git clone $git_repo
 else
     log "Directory $container_name already exists. Skipping clone."
 fi
